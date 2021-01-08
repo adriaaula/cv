@@ -141,18 +141,40 @@ CV %<>% print_section('research_positions')
 
 
 
-
-
-Selected Publications, Posters, and Talks {data-icon=book}
+Selected Publications {data-icon=book}
 --------------------------------------------------------------------------------
 
 ```{r}
-CV %<>% print_section('academic_articles')
+CV %<>% print_section('publications')
 ```
 
 
 
 ```{r}
-#CV %<>% print_links()
+CV %<>% print_links()
 ```
+
+Posters and Talks {data-icon=book}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('oral_communications')
+```
+
+
+Teaching Experience {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('teaching')
+```
+
+
+Projects {data-icon=share-alt}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('projects')
+```
+
 
